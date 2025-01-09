@@ -13,16 +13,23 @@ const Hero: React.FC = () => {
   return (
     <div id="about" className="min-h-screen w-full flex justify-center items-center p-6">
       <div className="w-full max-w-4xl rounded-lg bg-indigo-600 text-white shadow-lg p-8 md:p-12 space-y-6">
-        <h2 className="text-2xl md:text-4xl font-extrabold text-center bg-indigo-500 py-2 rounded-lg border-4 border-indigo-700">
+        {/* Heading */}
+        <h2 className="text-2xl md:text-4xl font-extrabold text-center bg-indigo-500 py-3 rounded-lg border-4 border-indigo-700">
           <SparklesText text="ABOUT ME" />
         </h2>
-        <p className="text-base md:text-lg leading-relaxed text-white">{aboutMeContent}</p>
+
+        {/* About Me Content */}
+        <p className="text-base md:text-lg leading-relaxed">{aboutMeContent}</p>
+
+        {/* Additional Information */}
         <ul className="list-disc pl-6 space-y-1 text-indigo-200">
           <li><strong>From:</strong> Pune, India</li>
           <li><strong>Age:</strong> 21</li>
           <li><strong>Gender:</strong> Male</li>
         </ul>
-        <div className="flex justify-center">
+
+        {/* Resume Button Centered */}
+        <div className="flex justify-center mt-6">
           <Button
             as="a"
             href="https://github.com/suyashambule/resume/blob/main/suyash.pdf"
