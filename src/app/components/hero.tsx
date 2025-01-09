@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
         <div className="flex justify-center mt-6">
           <Button
             as="a"
-            href="https://github.com/suyashambule/resume/blob/main/suyash.pdf"
+            href="https://github.com/suyashambule/resume/blob/main/suyash-3.pdf"
             color="secondary"
             variant="shadow"
             className="bg-indigo-500 hover:bg-indigo-700 transition p-4 rounded-lg font-bold">
