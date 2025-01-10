@@ -20,7 +20,7 @@ export function CardDemo() {
       link: "https://github.com/suyashambule/Intent-classification-",
     },
     {
-      image: "/images/unknown.jpeg", // Image path
+      image: "/images/Unknown.jpeg", // Image path
       title: <span className="text-violet-600">Sentiment Analysis Using BERT</span>,
       description: "A sentiment analysis tool powered by BERT (Bidirectional Encoder Representations from Transformers), which provides insights and management solutions for orphanages. The website is fully dynamic with user and admin panels, offering features like appointment scheduling related to adoption, fundraisers, donations, and payment integration.",
       link: "https://github.com/suyashambule/Sentiment-analysis-using-Bert",
