@@ -7,10 +7,10 @@ import { Button } from '@nextui-org/react';
 export function CardDemo() {
   const projects = [
     {
-      image: "/images/human.jpeg", // Image path
-      title: <span className="text-violet-600">Human emotion detection</span>,
-      description:"This project focuses on training a machine learning model for emotion detection based on facial expressions. Using deep learning techniques, the model is trained to recognize emotions such as happiness, sadness, anger",
-      link: "https://github.com/suyashambule/Human-emotion-detection",
+      image: "/images/NS.jpeg", // Image path
+      title: <span className="text-violet-600">Network security using mlops</span>,
+      description:"This project implements machine learning techniques for network security, focusing on identifying and mitigating phishing threats using phishing datasets. It integrates data handling, model training, and security analytics for enhanced threat detection.",
+      link: "https://github.com/suyashambule/Network-security-using-machine-learning",
     },
     {
       image: "/images/intent.png", // Image path
