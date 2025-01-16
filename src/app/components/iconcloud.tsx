@@ -1,19 +1,31 @@
 import { IconCloud } from "./ui/floating-icons";
+
 const slugs = [
   "tensorflow",
-  "amazonaws",
-  "docker",
-  "kubernetes",
+  "pytorch",
+  "scikit-learn",
+  "keras",
   "mlflow",
+  "huggingface",
+  "xgboost",
+  "lightgbm",
+  "fastai",
+  "openai",
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "seaborn",
+  "amazonaws",
   "s3",
   "ec2",
   "lambda",
-  "pytorch",
+  "docker",
+  "kubernetes",
   "git",
   "github",
-  "firebase",
-  "postgresql",
   "gitlab",
+  "postgresql",
+  "firebase",
   "sonarqube",
   "jira",
   "nginx",
@@ -31,4 +43,3 @@ export function IconCloudDemo() {
     </div>
   );
 }
-
