@@ -1,39 +1,28 @@
 import { IconCloud } from "./ui/floating-icons";
 const slugs = [
-  "typescript",
-  "dart",
-  "java",
-  "react",
-  "flutter",
-  "android",
-  "html5",
-  "mlflow",
-  "nodedotjs",
-  "express",
-  "nextdotjs",
-  "prisma",
+  "tensorflow",
   "amazonaws",
-  "postgresql",
-  "firebase",
-  "nginx",
-  "vercel",
-  "testinglibrary",
-  "jest",
-  "cypress",
   "docker",
+  "kubernetes",
+  "mlflow",
+  "s3",
+  "ec2",
+  "lambda",
+  "pytorch",
   "git",
-  "jira",
   "github",
+  "firebase",
+  "postgresql",
   "gitlab",
-  "visualstudiocode",
-  "androidstudio",
   "sonarqube",
-  "figma",
+  "jira",
+  "nginx",
 ];
 
 export function IconCloudDemo() {
+  // Map the slugs to the image URLs using simpleicons.org
   const images = slugs.map(
-    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
+    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
   );
 
   return (
@@ -42,3 +31,4 @@ export function IconCloudDemo() {
     </div>
   );
 }
+
